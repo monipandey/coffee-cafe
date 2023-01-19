@@ -1,0 +1,210 @@
+
+
+body {
+    background-image: url("images/90.jpg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+
+   }
+
+.center {
+    color: aliceblue;
+    font-size: 100px;
+    text-align: right;
+}   
+
+.cool {color: aliceblue;
+    font-size: 70px;
+    text-align: right;
+
+}
+
+.cool1 {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: right;
+
+}
+.cool6{
+    color: #fff;
+    margin-right: 2;
+    float: right;
+
+
+}
+
+.cool5 {
+    
+    color: #fff;
+    margin-right: 210px;
+    float: right;
+    font-size: 40px;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border: solid wheat;
+    background-color: rgb(186, 141, 73);
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.monika{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);  
+}
+
+.box-container .box img{
+    height: 15rem;
+}
+
+.box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.box-container .box:hover{
+    background:#fff;
+}
+
+.box-container .box:hover > *{
+    color:var(--black);
+}
+
+
+.column {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.row::after{
+    content: "";
+    display: table;
+}
+
+.column img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.SHIVANI{
+	color: white;
+    float: right;
+    padding-right: 300PX;
+    font-size: 30PX;
+}
+
+.sheetal{
+    color: white;
+    float: right;
+    display: flex;
+  
+    font-size: 30PX;
+}
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+a:hover{
+    color: red;
+    background-color: aqua;
+    text-decoration: double;
+}
+a{
+    color:#fff;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+.header,ul{
+    display: flex;
+    list-style-type: none;
+    max-height: 20px;
+    align-items: center;
+}
+li{
+    padding: 20px;
+}
+
+H6 {
+    color: #fff;
+    text-align: right;
+    font-size: 20PX;
+    padding-top: -50px;
+}
+
+.ram {
+    color: #fff;
+    font-size: 25px;
+}
+
+.sudhir {
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
